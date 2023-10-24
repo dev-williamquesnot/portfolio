@@ -69,7 +69,6 @@ const Works = () => {
                                 <img src={project.background} alt={project.name} className="w-24 h-24" style={{ height: '100%' }} />
                             </div>
                         </div>
-
                         <div className="absolute left-0 right-0 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:transition-opacity duration-300">
                             <a href={project.urlRepository} className=" inline-block relative bg-lightblue-custom p-2 rounded text-white hover:bg-black mr-2">Repository</a>
                             <a href={project.urlWebsite} className="inline-block relative bg-black p-2 rounded text-white hover:bg-black">Website</a>
